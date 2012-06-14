@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <style type="text/css">
+      table.bor, th.bor, td.bor {border:1px solid black;}
+      table.bor {border-collapse:collapse; width:100%;}
+      th.bor {height:50px;}
+
+      table.align, td.align, th.align {border:1px solid black;}
+      td.align {text-align:right;}
+
+      table.va, td.va, th.va {border:1px solid black;}
+      td.va {height:50px; vertical-align:bottom;}
+
+      table.pad, td.pad, th.pad {border:1px solid black;}
+      td.pad {padding:15px;}
+
+      table.c, td.c, th.c {border:1px solid green;}
+      th.c {background-color:green; color:white;}
+    </style>
+
+    <title>CSS Tables</title>
+
+  </head>
+
+  <body>
+
+    <h1>CSS Tables</h1>
+
+    <h4>Table borders</h4>
+
+    <table class="bor">
+      <tr class="bor">
+	<th class="bor">Firstname</th>
+	<th class="bor">Lastname</th>
+      </tr>
+      <tr class="bor">
+	<td class="bor">Peter</td>
+	<td class="bor">Griffin</td>
+      </tr>
+      <tr class="bor">
+	<td class="bor">Lois</td>
+	<td class="bor">Griffin</td>
+      <tr>
+    </table>
+
+    <h4>The table above also has had its border collapsed using the border-collapse property</h4>
+
+    <h4>Table width and Height may also be set using % as well as px</h4>
+
+    <h4>You may also control the alignment of text</h4>
+
+    <table class="align">
+      <tr class="align">
+	<th class="align">Firstname</th>
+	<th class="align">Lastname</th>
+	<th class="align">Savings</th>
+      </tr>
+      <tr class="align">
+	<td class="align">Peter</td>
+	<td class="align">Griffin</td>
+	<td class="align">$100</td>
+      </tr>
+      <tr class="align">
+	<td class="align">Lois</td>
+	<td class="align">Griffin</td>
+	<td class="align">$150</td>
+      </tr>
+    </table>
+
+    <h4>Vertical Alignment</h4>
+
+    <table class="va">
+      <tr class="va">
+	<th class="va">Firstname</th>
+	<th class="va">Lastname</th>
+	<th class="va">Savings</th>
+      </tr>
+      <tr class="va">
+	<td class="va">Peter</td>
+	<td class="va">Griffin</td>
+	<td class="va">$100</td>
+      </tr>
+    </table>
+
+    <h4>Table Padding</h4>
+
+    <table class="pad">
+      <tr class="pad">
+	<th class="pad">Firstname</th>
+	<th class="pad">Lastname</th>
+	<th class="pad">Savings</th>
+      </tr>
+      <tr class="pad">
+	<td class="pad">Peter</td>
+	<td class="pad">Griffin</td>
+	<td class="pad">$100</td>
+      </tr>
+    </table>
+
+    <h4>Table color</h4>
+
+    <table class="c">
+      <tr class="c">
+	<th class="c">Firstname</th>
+	<th class="c">Lastname</th>
+	<th class="c">Savings</th>
+      </tr>
+      <tr class="c">
+	<td class="c">Peter</td>
+	<td class="c">Griffin</td>
+	<td class="c">$100</td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>
